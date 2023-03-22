@@ -30,6 +30,7 @@ string Block::calculateHash(){
 int main(){
     Block genesisBlock("Genesis Block", "0");
     Block secondBlock("Second Block", genesisBlock.hash);
+    
     Block thirdBlock("Third Block", secondBlock.hash);
     cout << "Genesis Block Hash: " << genesisBlock.hash << endl;
     cout << "Second Block Hash: " << secondBlock.hash << endl;
