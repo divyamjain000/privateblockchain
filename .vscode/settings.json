@@ -1,3 +1,10 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/divyamjain/Desktop/Code/web3/privateblockchain",
+            "binaryPath": "/Users/divyamjain/Desktop/Code/web3/privateblockchain/output",
+            "binaryArgs": []
+        }
+    ]
 }
